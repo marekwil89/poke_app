@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { PokeList } from './PokeList';
-import { PokeModal } from './PokeModal';
+import { PokeModal } from './PokeModel/PokeModal';
 import { PokeError } from './PokeError/PokeError';
 import { Pokemon } from '../interfaces/Pokemon';
 import { PokemonFetch } from '../interfaces/PokemonFetch';

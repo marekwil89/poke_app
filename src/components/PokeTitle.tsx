@@ -6,6 +6,6 @@ interface Props {
 
 export const PokeTitle: React.FC<Props> = ({title}) => {
   return (
-    <h2 className="mb-3">{title}</h2>
+    <h2 className="poke=title mb-3">{title}</h2>
   ) 
 };
